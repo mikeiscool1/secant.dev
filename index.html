@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Secant</h1>
+      <p class="lead">This is a personal developer website showcasing some of my projects. 
+        It is also used as a general domain for other, less important websites. You may view the source code behind
+      these projects from my GitHub which is linked right below.</p>
+      <a href="https://github.com/mikeiscool1?tab=repositories" target="_blank" class="btn btn-outline-light btn-lg mt-3">
+        <i class="devicon-github-original"></i> GitHub
+      </a>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Some of My Projects</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="https://www.parallelbot.xyz/imgs/logo.png" class="card-img-top" alt="Parallel">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Parallel</h5>
+              <p class="card-text">
+                Parallel is an open source Discord moderation bot. It is currently in around 1,400 servers. 
+                It is my biggest and longest running project, beginning in around September, 2020. It has been rewritten twice, and all three versions are available as separate branches on GitHub.
+                However, the previous versions no longer work due to being too outdated.
+              </p>
+        
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></a>
+                <div class="more-icons d-none">
+                  <a target="_blank" href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" /></a>
+                  <a target="_blank" href="https://www.prisma.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" /></a>
+                  <a target="_blank" href="https://discord.js.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg" /></a>
+                </div>
+
+                <button class="btn btn-link p-0 text-secondary ms-1 view-more" type="button">
+                  View more
+                </button>
+              </div>
+        
+              <a href="https://github.com/Parallel-Development/Parallel" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/parallelbot.xyz.png" class="card-img-top" alt="parallelbot.xyz">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Parallel Website</h5>
+              <p class="card-text"><a href="https://www.parallelbot.xyz" target="_blank">parallelbot.xyz</a> is the website for <b>Parallel</b>. It offers a showcase of the bot, documentation, redirects, and an online ban appeal system.</p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/></a>
+                <div class="more-icons d-none">
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></a>
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></a>
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></a>
+                  <a target="_blank" href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"/></a>
+                  <a target="_blank" href="https://discord.js.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg"/></a>
+                  <a target="_blank" href="https://expressjs.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" /></a>
+                </div>
+
+                <button class="btn btn-link p-0 text-secondary ms-1 view-more" type="button">
+                  View more
+                </button>
+              </div>
+
+              <a href="https://github.com/Parallel-Development/Parallel-API" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/vitchat.xyz.png" class="card-img-top" alt="Vitchat">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Vitchat</h5>
+              <p class="card-text">Vitchat is an online chatting platform. It has only one global chat. Users need to be whitelisted by an administrator to join. 
+                Unfortunately, vitchat doesn't support uploading files, which includes images; however, users can still set a profile picture. Vitchat works on both desktop and mobile devices.
+              In addition to the website, I also created a very simple bot for Vitchat called Barry Bot (visible in the image above). <a href="https://github.com/mikeiscool1/BarryBot" target="_blank">Click here</a> to view its source code.</p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/></a>
+                <div class="more-icons d-none">
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></a>
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></a>
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></a>
+                  <a target="_blank" href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"/></a>
+                  <a target="_blank" href="https://www.prisma.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"/></a>
+                  <a target="_blank" href="https://expressjs.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" /></a>
+                </div>
+
+                <button class="btn btn-link p-0 text-secondary ms-1 view-more" type="button">
+                  View more
+                </button>
+              </div>
+
+              <a href="https://github.com/mikeiscool1/vitchat.xyz" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/test.secant.dev.png" class="card-img-top" alt="Test">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Test</h5>
+              <p class="card-text">This project doesn't technically have a name, but it is a website designed to administer tests.
+                Test configuration is very versatile, and tests can even be timed. The tests are also secure, i.e concealing the answers, and requiring a ticket to take a test.
+              </p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/></a>
+                <div class="more-icons d-none">
+                  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></a>
+                  <a target="_blank" href="https://sass-lang.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></a>
+                  <a target="_blank" href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"/></a>
+                  <a target="_blank" href="https://www.prisma.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"/></a>
+                  <a target="_blank" href="https://expressjs.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" /></a>
+                </div>
+
+                <button class="btn btn-link p-0 text-secondary ms-1 view-more" type="button">
+                  View more
+                </button>
+              </div>
+
+              <a href="https://github.com/mikeiscool1/Test" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/snake.png" class="card-img-top" alt="Snake">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Snake</h5>
+              <p class="card-text">This is a reimplementation of Snake using the Java Swing library. 
+                Previously, I had written this in C++ with SDL2, but I rewrote it in Java for both the learning experience, as well as to make the application more accessible.</p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://www.java.com/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></a>
+              </div>
+
+              <a href="https://github.com/mikeiscool1/Snake" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/tetris.png" class="card-img-top" alt="Tetris">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tetris</h5>
+              <p class="card-text">This is a reimplementation of the popular retro game Tetris using the SDL2 C graphics library. As the player
+                advances through the game, the speed that the blocks fall increases. The player score is displayed in the top left corner.
+              </p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://cplusplus.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" /></a>
+              </div>
+
+              <a href="https://github.com/mikeiscool1/Tetris" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/flappy_bird.png" class="card-img-top" alt="Flappy Bird">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Flappy Bird</h5>
+              <p class="card-text">This is a reimplementation of Flappy Bird using the SDL2 C graphics library. It was one of my first SDL2 projects, and consequently, it is not performant.
+              </p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://cplusplus.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" /></a>
+              </div>
+
+              <a href="https://github.com/mikeiscool1/Flappy-Bird" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/TicTacToe.png" class="card-img-top" alt="Tic-Tac-Toe">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tic-Tac-Toe (Solved)</h5>
+              <p class="card-text">Tic Tac Toe is a simple game, and therefore it is easy to solve. 
+                This program solves the entire Tic Tac Toe game and then allows you to play against it in the terminal.
+                It is impossible to win against this AI; you can only manage to tie with it. This program demonstrates use of the minimax algorithm to
+                calculate the best moves.
+              </p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://cplusplus.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" /></a>
+              </div>
+
+              <a href="https://github.com/mikeiscool1/TicTacToe_Solved" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-img-container">
+              <img src="imgs/lexer.png" class="card-img-top" alt="Lexer">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Lexer</h5>
+              <p class="card-text">This program converts code from text to lexical tokens. It uses custom syntax for a programming language that does not exist,
+                but the syntax can easily be changed. Originally, this was going to be a programming language, but it only made it to the lexer state.
+                It allows you to print out the tokens with color, essentially also acting like a syntax highlighter.
+              </p>
+              <div class="icons mb-3 d-flex gap-1">
+                <a target="_blank" href="https://www.rust-lang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" /></a>
+              </div>
+
+              <a href="https://github.com/mikeiscool1/Lexer" target="_blank" class="btn btn-outline-dark">
+                <i class="devicon-github-original"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-center mt-5">And more</h2>
+  </section>
+
+  <header class="bg-primary text-white py-3">
+    <div class="container text-center">
+      <h1 class="display-4">About Me</h1>
+      <p class="lead">More about my programming experience and preferences.</p>
+    </div>
+  </header>
+
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <h2>Programming Languages</h2>
+        <p>I have extensive experience with <b>TypeScript</b> and <b>C++</b>, utilizing TypeScript/JavaScript for scripting and networking tasks, and C++ for algorithm-focused or CPU-intensive applications. 
+          Recently, I have developed an interest in Rust due to its modern design, powerful features, safety, and high-level abstractions. Additionally, I have limited experience with Python, Java, Assembly, and several other programming languages.</p>
+      </div>
+      <div class="row">
+        <h2>Websites</h2>
+        <p>All my websites are powered by a VPS running on <b>Ubuntu Linux</b> where I use <b>Nginx</b> as the web server and <b>ExpressJS</b> for backend functionality. 
+          I rely on Cloudflare for SSL certificates, DNS management, and security. For frontend design, I utilize <b>Bootstrap</b>, a CSS library, to create clean and responsive layouts.
+          </p>
+        <p>For purchasing domains, I use <a href="https://namecheap.com" target="_blank">https://namecheap.com</a> as it offers cheap domains and easy domain management.</p>
+      </div>
+      <div class="row">
+        <h2>Databases</h2>
+        <p>I previously worked with MongoDB, a NoSQL database, but have since transitioned to <b>PostgreSQL</b>, a robust and versatile SQL database. 
+          PostgreSQL's advanced features, such as support for complex queries and extensive extensions, have made it my preferred choice for managing relational data.
+          Therefore, it has been the go-to database for all of my projects.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>2024 Secant.dev :)</p>
+      <div>
+        <a href="https://github.com/mikeiscool1" target="_blank" class="text-white mx-2 text-decoration-none"><i class="devicon-github-original"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
